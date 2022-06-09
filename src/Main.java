@@ -191,20 +191,22 @@ public class Main {
             }
         } else if (input.length() == 7) {
             for (int i = 0; i < alfabetAtas.length; i++) {
+                System.out.println(alfabetAtas[i]);
                 for (int j = 0; j < alfabet.length; j++) {
+                    System.out.print(alfabetAtas[i] + alfabet[j]);
                     for (int k = 0; k < alfabet.length; k++) {
                         for (int l = 0; l < alfabet.length; l++) {
                             for (int m = 0; m < alfabet.length; m++) {
                                 for (int n = 0; n < alfabet.length; n++) {
                                     for (int o = 0; o < alfabet.length; o++) {
-                                        System.out.print(alfabetAtas[i]);
-                                        System.out.print(alfabet[j]);
-                                        System.out.print(alfabet[k]);
-                                        System.out.print(alfabet[l]);
-                                        System.out.print(alfabet[m]);
-                                        System.out.print(alfabet[n]);
-                                        System.out.print(alfabet[o]);
-                                        System.out.println("");
+//                                        System.out.print(alfabetAtas[i]);
+//                                        System.out.print(alfabet[j]);
+//                                        System.out.print(alfabet[k]);
+//                                        System.out.print(alfabet[l]);
+//                                        System.out.print(alfabet[m]);
+//                                        System.out.print(alfabet[n]);
+//                                        System.out.print(alfabet[o]);
+//                                        System.out.println("");
                                     }
                                 }
                             }
@@ -235,6 +237,7 @@ public class Main {
                 }
             }
         }
-        
+
     }
 }
+
