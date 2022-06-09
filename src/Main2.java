@@ -36,16 +36,26 @@ public class Main2 {
                             System.exit(0);
                         }
                         for (int m = 0; m < alfabet.length; m++) {
+                            teks = String.valueOf(alfabetAtas[i]) + String.valueOf(alfabet[j]) + String.valueOf(alfabet[k]) + String.valueOf(alfabet[l])
+                                    + String.valueOf(alfabet[m]);
+                            System.out.println(teks);
+                            if(teks.equals(input)) {
+                                System.exit(0);
+                            }
                             for (int n = 0; n < alfabet.length; n++) {
+                                teks = String.valueOf(alfabetAtas[i]) + String.valueOf(alfabet[j]) + String.valueOf(alfabet[k]) + String.valueOf(alfabet[l])
+                                        + String.valueOf(alfabet[m]) + String.valueOf(alfabet[n]);
+                                System.out.println(teks);
+                                if(teks.equals(input)) {
+                                    System.exit(0);
+                                }
                                 for (int o = 0; o < alfabet.length; o++) {
-//                                        System.out.print(alfabetAtas[i]);
-//                                        System.out.print(alfabet[j]);
-//                                        System.out.print(alfabet[k]);
-//                                        System.out.print(alfabet[l]);
-//                                        System.out.print(alfabet[m]);
-//                                        System.out.print(alfabet[n]);
-//                                        System.out.print(alfabet[o]);
-//                                        System.out.println("");
+                                    teks = String.valueOf(alfabetAtas[i]) + String.valueOf(alfabet[j]) + String.valueOf(alfabet[k]) + String.valueOf(alfabet[l])
+                                            + String.valueOf(alfabet[m]) + String.valueOf(alfabet[n]) + String.valueOf(alfabet[o]);
+                                    System.out.println(teks);
+                                    if(teks.equals(input)) {
+                                        System.exit(0);
+                                    }
                                 }
                             }
                         }
