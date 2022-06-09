@@ -6,11 +6,12 @@ public class Generator {
         charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
     }
 
-
+    int a = 0;
     public void generate(String str, int pos, int length)
     {
         if (length == 0) {
-            System.out.println(str);
+            a ++;
+            System.out.println(a);
         } else {
             for (int i = pos; i < charset.length; i++) {
                 generate(str + charset[i], i, length - 1);
