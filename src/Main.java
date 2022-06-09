@@ -1,3 +1,5 @@
+package com.Tas4x4;
+
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -191,22 +193,20 @@ public class Main {
             }
         } else if (input.length() == 7) {
             for (int i = 0; i < alfabetAtas.length; i++) {
-                System.out.println(alfabetAtas[i]);
                 for (int j = 0; j < alfabet.length; j++) {
-                    System.out.print(alfabetAtas[i] + alfabet[j]);
                     for (int k = 0; k < alfabet.length; k++) {
                         for (int l = 0; l < alfabet.length; l++) {
                             for (int m = 0; m < alfabet.length; m++) {
                                 for (int n = 0; n < alfabet.length; n++) {
                                     for (int o = 0; o < alfabet.length; o++) {
-//                                        System.out.print(alfabetAtas[i]);
-//                                        System.out.print(alfabet[j]);
-//                                        System.out.print(alfabet[k]);
-//                                        System.out.print(alfabet[l]);
-//                                        System.out.print(alfabet[m]);
-//                                        System.out.print(alfabet[n]);
-//                                        System.out.print(alfabet[o]);
-//                                        System.out.println("");
+                                        System.out.print(alfabetAtas[i]);
+                                        System.out.print(alfabet[j]);
+                                        System.out.print(alfabet[k]);
+                                        System.out.print(alfabet[l]);
+                                        System.out.print(alfabet[m]);
+                                        System.out.print(alfabet[n]);
+                                        System.out.print(alfabet[o]);
+                                        System.out.println("");
                                     }
                                 }
                             }
@@ -236,8 +236,175 @@ public class Main {
                     }
                 }
             }
-        }
+        } else if (input.length() == 8) {
+            for (int i = 0; i < alfabetAtas.length; i++ ){
+                for (int j = 0; j < alfabet.length; j++) {
+                    for (int k = 0; k < alfabet.length; k++) {
+                        for (int l = 0; l < alfabet.length; l++) {
+                            for (int m = 0; m < alfabet.length; m++) {
+                                for (int n = 0; n < alfabet.length; n++) {
+                                    for (int o = 0; o < alfabet.length; o++) {
+                                        for (int p = 0; p < alfabet.length; p++) {
+                                            System.out.print(alfabetAtas[i]);
+                                            System.out.print(alfabetAtas[j]);
+                                            System.out.print(alfabetAtas[k]);
+                                            System.out.print(alfabetAtas[l]);
+                                            System.out.print(alfabetAtas[m]);
+                                            System.out.print(alfabetAtas[n]);
+                                            System.out.print(alfabetAtas[o]);
+                                            System.out.print(alfabetAtas[p]);
+                                            System.out.println("");
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
 
+            } for (int i = 0; i < alfabetBawah.length; i++ ){
+                for (int j = 0; j < alfabet.length; j++) {
+                    for (int k = 0; k < alfabet.length; k++) {
+                        for (int l = 0; l < alfabet.length; l++) {
+                            for (int m = 0; m < alfabet.length; m++) {
+                                for (int n = 0; n < alfabet.length; n++) {
+                                    for (int o = 0; o < alfabet.length; o++) {
+                                        for (int p = 0; p < alfabet.length; p++) {
+                                            System.out.print(alfabetBawah[i]);
+                                            System.out.print(alfabetBawah[j]);
+                                            System.out.print(alfabetBawah[k]);
+                                            System.out.print(alfabetBawah[l]);
+                                            System.out.print(alfabetBawah[m]);
+                                            System.out.print(alfabetBawah[n]);
+                                            System.out.print(alfabetBawah[o]);
+                                            System.out.print(alfabetBawah[p]);
+                                            System.out.println("");
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        } else if (input.length() == 9) {
+            for (int i = 0; i < alfabetAtas.length; i++ ){
+                for (int j = 0; j < alfabet.length; j++) {
+                    for (int k = 0; k < alfabet.length; k++) {
+                        for (int l = 0; l < alfabet.length; l++) {
+                            for (int m = 0; m < alfabet.length; m++) {
+                                for (int n = 0; n < alfabet.length; n++) {
+                                    for (int o = 0; o < alfabet.length; o++) {
+                                        for (int p = 0; p < alfabet.length; p++)
+                                        for (int q = 0; p < alfabet.length; q++){
+                                            System.out.print(alfabetAtas[i]);
+                                            System.out.print(alfabetAtas[j]);
+                                            System.out.print(alfabetAtas[k]);
+                                            System.out.print(alfabetAtas[l]);
+                                            System.out.print(alfabetAtas[m]);
+                                            System.out.print(alfabetAtas[n]);
+                                            System.out.print(alfabetAtas[o]);
+                                            System.out.print(alfabetAtas[p]);
+                                            System.out.print(alfabetAtas[q]);
+                                            System.out.println("");
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            } for (int i = 0; i < alfabetBawah.length; i++ ){
+                for (int j = 0; j < alfabet.length; j++) {
+                    for (int k = 0; k < alfabet.length; k++) {
+                        for (int l = 0; l < alfabet.length; l++) {
+                            for (int m = 0; m < alfabet.length; m++) {
+                                for (int n = 0; n < alfabet.length; n++) {
+                                    for (int o = 0; o < alfabet.length; o++) {
+                                        for (int p = 0; p < alfabet.length; p++)
+                                        for (int q = 0; q < alfabet.length; q++){
+                                            System.out.print(alfabetBawah[i]);
+                                            System.out.print(alfabetBawah[j]);
+                                            System.out.print(alfabetBawah[k]);
+                                            System.out.print(alfabetBawah[l]);
+                                            System.out.print(alfabetBawah[m]);
+                                            System.out.print(alfabetBawah[n]);
+                                            System.out.print(alfabetBawah[o]);
+                                            System.out.print(alfabetBawah[p]);
+                                            System.out.print(alfabetBawah[q]);
+                                            System.out.println("");
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        } else if (input.length() == 10) {
+            for (int i = 0; i < alfabetAtas.length; i++ ){
+                for (int j = 0; j < alfabet.length; j++) {
+                    for (int k = 0; k < alfabet.length; k++) {
+                        for (int l = 0; l < alfabet.length; l++) {
+                            for (int m = 0; m < alfabet.length; m++) {
+                                for (int n = 0; n < alfabet.length; n++) {
+                                    for (int o = 0; o < alfabet.length; o++) {
+                                        for (int p = 0; p < alfabet.length; p++)
+                                            for (int q = 0; p < alfabet.length; q++)
+                                            for (int r = 0; r < alfabet.length; r++){
+                                                System.out.print(alfabetAtas[i]);
+                                                System.out.print(alfabetAtas[j]);
+                                                System.out.print(alfabetAtas[k]);
+                                                System.out.print(alfabetAtas[l]);
+                                                System.out.print(alfabetAtas[m]);
+                                                System.out.print(alfabetAtas[n]);
+                                                System.out.print(alfabetAtas[o]);
+                                                System.out.print(alfabetAtas[p]);
+                                                System.out.print(alfabetAtas[q]);
+                                                System.out.print(alfabetAtas[r]);
+                                                System.out.println("");
+                                            }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            } for (int i = 0; i < alfabetBawah.length; i++ ){
+                for (int j = 0; j < alfabet.length; j++) {
+                    for (int k = 0; k < alfabet.length; k++) {
+                        for (int l = 0; l < alfabet.length; l++) {
+                            for (int m = 0; m < alfabet.length; m++) {
+                                for (int n = 0; n < alfabet.length; n++) {
+                                    for (int o = 0; o < alfabet.length; o++) {
+                                        for (int p = 0; p < alfabet.length; p++)
+                                            for (int q = 0; q < alfabet.length; q++)
+                                            for (int r = 0; r < alfabet.length; r++){
+                                                System.out.print(alfabetBawah[i]);
+                                                System.out.print(alfabetBawah[j]);
+                                                System.out.print(alfabetBawah[k]);
+                                                System.out.print(alfabetBawah[l]);
+                                                System.out.print(alfabetBawah[m]);
+                                                System.out.print(alfabetBawah[n]);
+                                                System.out.print(alfabetBawah[o]);
+                                                System.out.print(alfabetBawah[p]);
+                                                System.out.print(alfabetBawah[q]);
+                                                System.out.print(alfabetBawah[r]);
+                                                System.out.println("");
+                                            }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        
     }
 }
-
