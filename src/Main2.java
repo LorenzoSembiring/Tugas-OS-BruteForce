@@ -14,7 +14,7 @@ public class Main2 implements Runnable{
         // variabel teks adalah variabel yang akan menampung hasil loop, dideklarasikan sebagai string kosong
         String teks = "";
 
-        // memisahkan tugas dari 2 thread yang berbeda dengan pendekatan memisah looping kedalam 2 thread
+        // memisahkan tugas kedalam 2 thread yang berbeda dengan pendekatan memisah looping kedalam 2 thread
         // thread 1 menghandle loop untuk semua kemungkinan teks dengan awalan a-m.
         // thread 2 menghandle loop untuk semua kemungkinan teks dengan awalan n-z.
         // menghindari penggunaan recursive, dengan menggunakan loop biasa,
